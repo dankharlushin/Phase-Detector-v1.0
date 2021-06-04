@@ -372,7 +372,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 Core/Src/syscalls.o
  .debug_macro   0x0000000000000000       0x88 Core/Src/syscalls.o
  .debug_line    0x0000000000000000      0x73e Core/Src/syscalls.o
- .debug_str     0x0000000000000000     0x88a7 Core/Src/syscalls.o
+ .debug_str     0x0000000000000000     0x8892 Core/Src/syscalls.o
  .comment       0x0000000000000000       0x7c Core/Src/syscalls.o
  .debug_frame   0x0000000000000000      0x2ac Core/Src/syscalls.o
  .ARM.attributes
@@ -428,7 +428,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a Core/Src/sysmem.o
  .debug_macro   0x0000000000000000      0x1df Core/Src/sysmem.o
  .debug_line    0x0000000000000000      0x4c7 Core/Src/sysmem.o
- .debug_str     0x0000000000000000     0x5f75 Core/Src/sysmem.o
+ .debug_str     0x0000000000000000     0x5f60 Core/Src/sysmem.o
  .comment       0x0000000000000000       0x7c Core/Src/sysmem.o
  .debug_frame   0x0000000000000000       0x34 Core/Src/sysmem.o
  .ARM.attributes
@@ -893,7 +893,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x47 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_macro   0x0000000000000000      0x12d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_line    0x0000000000000000      0x993 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_str     0x0000000000000000    0xb7491 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_str     0x0000000000000000    0xb747c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .comment       0x0000000000000000       0x7c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_frame   0x0000000000000000      0x250 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .ARM.attributes
@@ -994,7 +994,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x47 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .debug_macro   0x0000000000000000      0x12d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .debug_line    0x0000000000000000     0x125c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
- .debug_str     0x0000000000000000    0xb7279 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
+ .debug_str     0x0000000000000000    0xb7264 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .comment       0x0000000000000000       0x7c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .debug_frame   0x0000000000000000       0xac Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .ARM.attributes
@@ -1105,7 +1105,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x47 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .debug_macro   0x0000000000000000      0x12d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .debug_line    0x0000000000000000      0x7bd Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
- .debug_str     0x0000000000000000    0xb7111 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
+ .debug_str     0x0000000000000000    0xb70fc Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .comment       0x0000000000000000       0x7c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .debug_frame   0x0000000000000000      0x174 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .ARM.attributes
@@ -1232,7 +1232,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x47 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .debug_macro   0x0000000000000000      0x12d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .debug_line    0x0000000000000000      0x8ab Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
- .debug_str     0x0000000000000000    0xb7252 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
+ .debug_str     0x0000000000000000    0xb723d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .comment       0x0000000000000000       0x7c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .debug_frame   0x0000000000000000      0x274 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .ARM.attributes
@@ -1358,7 +1358,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x47 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .debug_macro   0x0000000000000000      0x12d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .debug_line    0x0000000000000000      0x897 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
- .debug_str     0x0000000000000000    0xb72b8 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
+ .debug_str     0x0000000000000000    0xb72a3 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .comment       0x0000000000000000       0x7c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .debug_frame   0x0000000000000000      0x250 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .ARM.attributes
@@ -1450,7 +1450,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x47 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .debug_macro   0x0000000000000000      0x12d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .debug_line    0x0000000000000000      0x6c5 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
- .debug_str     0x0000000000000000    0xb6efe Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
+ .debug_str     0x0000000000000000    0xb6ee9 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .comment       0x0000000000000000       0x7c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
@@ -1665,7 +1665,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x47 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .debug_macro   0x0000000000000000      0x12d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .debug_line    0x0000000000000000      0x80c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
- .debug_str     0x0000000000000000    0xb72bf Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
+ .debug_str     0x0000000000000000    0xb72aa Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .comment       0x0000000000000000       0x7c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .debug_frame   0x0000000000000000      0x254 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .ARM.attributes
@@ -1770,7 +1770,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x47 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .debug_macro   0x0000000000000000      0x12d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .debug_line    0x0000000000000000      0x740 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
- .debug_str     0x0000000000000000    0xb7198 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
+ .debug_str     0x0000000000000000    0xb7183 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .comment       0x0000000000000000       0x7c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .debug_frame   0x0000000000000000       0xdc Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .ARM.attributes
@@ -1978,7 +1978,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x47 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .debug_macro   0x0000000000000000      0x12d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .debug_line    0x0000000000000000      0x7e6 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_str     0x0000000000000000    0xb71b1 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_str     0x0000000000000000    0xb719c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .comment       0x0000000000000000       0x7c Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .debug_frame   0x0000000000000000       0xf0 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .ARM.attributes
@@ -2604,6 +2604,360 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x8a0 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_macro   0x0000000000000000       0x47 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_macro   0x0000000000000000      0x12d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .group         0x0000000000000000        0xc Ethernet/W5100/w5100.o
+ .group         0x0000000000000000        0xc Ethernet/W5100/w5100.o
+ .group         0x0000000000000000        0xc Ethernet/W5100/w5100.o
+ .group         0x0000000000000000        0xc Ethernet/W5100/w5100.o
+ .group         0x0000000000000000        0xc Ethernet/W5100/w5100.o
+ .group         0x0000000000000000        0xc Ethernet/W5100/w5100.o
+ .group         0x0000000000000000        0xc Ethernet/W5100/w5100.o
+ .group         0x0000000000000000        0xc Ethernet/W5100/w5100.o
+ .group         0x0000000000000000        0xc Ethernet/W5100/w5100.o
+ .group         0x0000000000000000        0xc Ethernet/W5100/w5100.o
+ .text          0x0000000000000000        0x0 Ethernet/W5100/w5100.o
+ .data          0x0000000000000000        0x0 Ethernet/W5100/w5100.o
+ .bss           0x0000000000000000        0x0 Ethernet/W5100/w5100.o
+ .debug_info    0x0000000000000000      0x260 Ethernet/W5100/w5100.o
+ .debug_abbrev  0x0000000000000000      0x11d Ethernet/W5100/w5100.o
+ .debug_aranges
+                0x0000000000000000       0x18 Ethernet/W5100/w5100.o
+ .debug_macro   0x0000000000000000       0x8f Ethernet/W5100/w5100.o
+ .debug_macro   0x0000000000000000      0xa5a Ethernet/W5100/w5100.o
+ .debug_macro   0x0000000000000000       0x22 Ethernet/W5100/w5100.o
+ .debug_macro   0x0000000000000000       0x8e Ethernet/W5100/w5100.o
+ .debug_macro   0x0000000000000000       0x51 Ethernet/W5100/w5100.o
+ .debug_macro   0x0000000000000000       0xef Ethernet/W5100/w5100.o
+ .debug_macro   0x0000000000000000       0x6a Ethernet/W5100/w5100.o
+ .debug_macro   0x0000000000000000      0x1df Ethernet/W5100/w5100.o
+ .debug_macro   0x0000000000000000       0x73 Ethernet/W5100/w5100.o
+ .debug_macro   0x0000000000000000      0x749 Ethernet/W5100/w5100.o
+ .debug_macro   0x0000000000000000       0x66 Ethernet/W5100/w5100.o
+ .debug_line    0x0000000000000000      0x41b Ethernet/W5100/w5100.o
+ .debug_str     0x0000000000000000     0x71b3 Ethernet/W5100/w5100.o
+ .comment       0x0000000000000000       0x7c Ethernet/W5100/w5100.o
+ .ARM.attributes
+                0x0000000000000000       0x39 Ethernet/W5100/w5100.o
+ .group         0x0000000000000000        0xc Ethernet/W5100S/w5100s.o
+ .group         0x0000000000000000        0xc Ethernet/W5100S/w5100s.o
+ .group         0x0000000000000000        0xc Ethernet/W5100S/w5100s.o
+ .group         0x0000000000000000        0xc Ethernet/W5100S/w5100s.o
+ .group         0x0000000000000000        0xc Ethernet/W5100S/w5100s.o
+ .group         0x0000000000000000        0xc Ethernet/W5100S/w5100s.o
+ .group         0x0000000000000000        0xc Ethernet/W5100S/w5100s.o
+ .group         0x0000000000000000        0xc Ethernet/W5100S/w5100s.o
+ .group         0x0000000000000000        0xc Ethernet/W5100S/w5100s.o
+ .group         0x0000000000000000        0xc Ethernet/W5100S/w5100s.o
+ .text          0x0000000000000000        0x0 Ethernet/W5100S/w5100s.o
+ .data          0x0000000000000000        0x0 Ethernet/W5100S/w5100s.o
+ .bss           0x0000000000000000        0x0 Ethernet/W5100S/w5100s.o
+ .debug_info    0x0000000000000000      0x260 Ethernet/W5100S/w5100s.o
+ .debug_abbrev  0x0000000000000000      0x11d Ethernet/W5100S/w5100s.o
+ .debug_aranges
+                0x0000000000000000       0x18 Ethernet/W5100S/w5100s.o
+ .debug_macro   0x0000000000000000       0x8f Ethernet/W5100S/w5100s.o
+ .debug_macro   0x0000000000000000      0xa5a Ethernet/W5100S/w5100s.o
+ .debug_macro   0x0000000000000000       0x22 Ethernet/W5100S/w5100s.o
+ .debug_macro   0x0000000000000000       0x8e Ethernet/W5100S/w5100s.o
+ .debug_macro   0x0000000000000000       0x51 Ethernet/W5100S/w5100s.o
+ .debug_macro   0x0000000000000000       0xef Ethernet/W5100S/w5100s.o
+ .debug_macro   0x0000000000000000       0x6a Ethernet/W5100S/w5100s.o
+ .debug_macro   0x0000000000000000      0x1df Ethernet/W5100S/w5100s.o
+ .debug_macro   0x0000000000000000       0x73 Ethernet/W5100S/w5100s.o
+ .debug_macro   0x0000000000000000      0x749 Ethernet/W5100S/w5100s.o
+ .debug_macro   0x0000000000000000       0x66 Ethernet/W5100S/w5100s.o
+ .debug_line    0x0000000000000000      0x41e Ethernet/W5100S/w5100s.o
+ .debug_str     0x0000000000000000     0x71b6 Ethernet/W5100S/w5100s.o
+ .comment       0x0000000000000000       0x7c Ethernet/W5100S/w5100s.o
+ .ARM.attributes
+                0x0000000000000000       0x39 Ethernet/W5100S/w5100s.o
+ .group         0x0000000000000000        0xc Ethernet/W5200/w5200.o
+ .group         0x0000000000000000        0xc Ethernet/W5200/w5200.o
+ .group         0x0000000000000000        0xc Ethernet/W5200/w5200.o
+ .group         0x0000000000000000        0xc Ethernet/W5200/w5200.o
+ .group         0x0000000000000000        0xc Ethernet/W5200/w5200.o
+ .group         0x0000000000000000        0xc Ethernet/W5200/w5200.o
+ .group         0x0000000000000000        0xc Ethernet/W5200/w5200.o
+ .group         0x0000000000000000        0xc Ethernet/W5200/w5200.o
+ .group         0x0000000000000000        0xc Ethernet/W5200/w5200.o
+ .group         0x0000000000000000        0xc Ethernet/W5200/w5200.o
+ .text          0x0000000000000000        0x0 Ethernet/W5200/w5200.o
+ .data          0x0000000000000000        0x0 Ethernet/W5200/w5200.o
+ .bss           0x0000000000000000        0x0 Ethernet/W5200/w5200.o
+ .debug_info    0x0000000000000000      0x260 Ethernet/W5200/w5200.o
+ .debug_abbrev  0x0000000000000000      0x11d Ethernet/W5200/w5200.o
+ .debug_aranges
+                0x0000000000000000       0x18 Ethernet/W5200/w5200.o
+ .debug_macro   0x0000000000000000       0x8f Ethernet/W5200/w5200.o
+ .debug_macro   0x0000000000000000      0xa5a Ethernet/W5200/w5200.o
+ .debug_macro   0x0000000000000000       0x22 Ethernet/W5200/w5200.o
+ .debug_macro   0x0000000000000000       0x8e Ethernet/W5200/w5200.o
+ .debug_macro   0x0000000000000000       0x51 Ethernet/W5200/w5200.o
+ .debug_macro   0x0000000000000000       0xef Ethernet/W5200/w5200.o
+ .debug_macro   0x0000000000000000       0x6a Ethernet/W5200/w5200.o
+ .debug_macro   0x0000000000000000      0x1df Ethernet/W5200/w5200.o
+ .debug_macro   0x0000000000000000       0x73 Ethernet/W5200/w5200.o
+ .debug_macro   0x0000000000000000      0x749 Ethernet/W5200/w5200.o
+ .debug_macro   0x0000000000000000       0x66 Ethernet/W5200/w5200.o
+ .debug_line    0x0000000000000000      0x41b Ethernet/W5200/w5200.o
+ .debug_str     0x0000000000000000     0x71b2 Ethernet/W5200/w5200.o
+ .comment       0x0000000000000000       0x7c Ethernet/W5200/w5200.o
+ .ARM.attributes
+                0x0000000000000000       0x39 Ethernet/W5200/w5200.o
+ .group         0x0000000000000000        0xc Ethernet/W5300/w5300.o
+ .group         0x0000000000000000        0xc Ethernet/W5300/w5300.o
+ .group         0x0000000000000000        0xc Ethernet/W5300/w5300.o
+ .group         0x0000000000000000        0xc Ethernet/W5300/w5300.o
+ .group         0x0000000000000000        0xc Ethernet/W5300/w5300.o
+ .group         0x0000000000000000        0xc Ethernet/W5300/w5300.o
+ .group         0x0000000000000000        0xc Ethernet/W5300/w5300.o
+ .group         0x0000000000000000        0xc Ethernet/W5300/w5300.o
+ .group         0x0000000000000000        0xc Ethernet/W5300/w5300.o
+ .group         0x0000000000000000        0xc Ethernet/W5300/w5300.o
+ .text          0x0000000000000000        0x0 Ethernet/W5300/w5300.o
+ .data          0x0000000000000000        0x0 Ethernet/W5300/w5300.o
+ .bss           0x0000000000000000        0x0 Ethernet/W5300/w5300.o
+ .text.WIZCHIP_WRITE
+                0x0000000000000000       0x3c Ethernet/W5300/w5300.o
+ .text.WIZCHIP_READ
+                0x0000000000000000       0x3c Ethernet/W5300/w5300.o
+ .text.setTMSR  0x0000000000000000       0x7a Ethernet/W5300/w5300.o
+ .text.getTMSR  0x0000000000000000       0x4e Ethernet/W5300/w5300.o
+ .text.setRMSR  0x0000000000000000       0x7a Ethernet/W5300/w5300.o
+ .text.getRMSR  0x0000000000000000       0x4e Ethernet/W5300/w5300.o
+ .text.getSn_TX_FSR
+                0x0000000000000000       0x5a Ethernet/W5300/w5300.o
+ .text.getSn_RX_RSR
+                0x0000000000000000       0x6c Ethernet/W5300/w5300.o
+ .text.wiz_send_data
+                0x0000000000000000       0x68 Ethernet/W5300/w5300.o
+ .text.wiz_recv_data
+                0x0000000000000000       0x88 Ethernet/W5300/w5300.o
+ .text.wiz_recv_ignore
+                0x0000000000000000       0x3e Ethernet/W5300/w5300.o
+ .debug_info    0x0000000000000000      0x523 Ethernet/W5300/w5300.o
+ .debug_abbrev  0x0000000000000000      0x1bc Ethernet/W5300/w5300.o
+ .debug_aranges
+                0x0000000000000000       0x70 Ethernet/W5300/w5300.o
+ .debug_ranges  0x0000000000000000       0x60 Ethernet/W5300/w5300.o
+ .debug_macro   0x0000000000000000       0x85 Ethernet/W5300/w5300.o
+ .debug_macro   0x0000000000000000      0xa5a Ethernet/W5300/w5300.o
+ .debug_macro   0x0000000000000000       0x22 Ethernet/W5300/w5300.o
+ .debug_macro   0x0000000000000000       0x8e Ethernet/W5300/w5300.o
+ .debug_macro   0x0000000000000000       0x51 Ethernet/W5300/w5300.o
+ .debug_macro   0x0000000000000000       0xef Ethernet/W5300/w5300.o
+ .debug_macro   0x0000000000000000       0x6a Ethernet/W5300/w5300.o
+ .debug_macro   0x0000000000000000      0x1df Ethernet/W5300/w5300.o
+ .debug_macro   0x0000000000000000       0x73 Ethernet/W5300/w5300.o
+ .debug_macro   0x0000000000000000      0x749 Ethernet/W5300/w5300.o
+ .debug_macro   0x0000000000000000       0x66 Ethernet/W5300/w5300.o
+ .debug_line    0x0000000000000000      0x54b Ethernet/W5300/w5300.o
+ .debug_str     0x0000000000000000     0x72ad Ethernet/W5300/w5300.o
+ .comment       0x0000000000000000       0x7c Ethernet/W5300/w5300.o
+ .debug_frame   0x0000000000000000      0x1a4 Ethernet/W5300/w5300.o
+ .ARM.attributes
+                0x0000000000000000       0x39 Ethernet/W5300/w5300.o
+ .group         0x0000000000000000        0xc Ethernet/W5500/w5500.o
+ .group         0x0000000000000000        0xc Ethernet/W5500/w5500.o
+ .group         0x0000000000000000        0xc Ethernet/W5500/w5500.o
+ .group         0x0000000000000000        0xc Ethernet/W5500/w5500.o
+ .group         0x0000000000000000        0xc Ethernet/W5500/w5500.o
+ .group         0x0000000000000000        0xc Ethernet/W5500/w5500.o
+ .group         0x0000000000000000        0xc Ethernet/W5500/w5500.o
+ .group         0x0000000000000000        0xc Ethernet/W5500/w5500.o
+ .group         0x0000000000000000        0xc Ethernet/W5500/w5500.o
+ .group         0x0000000000000000        0xc Ethernet/W5500/w5500.o
+ .text          0x0000000000000000        0x0 Ethernet/W5500/w5500.o
+ .data          0x0000000000000000        0x0 Ethernet/W5500/w5500.o
+ .bss           0x0000000000000000        0x0 Ethernet/W5500/w5500.o
+ .debug_info    0x0000000000000000      0x260 Ethernet/W5500/w5500.o
+ .debug_abbrev  0x0000000000000000      0x11d Ethernet/W5500/w5500.o
+ .debug_aranges
+                0x0000000000000000       0x18 Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000000000       0xa7 Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000000000      0xa5a Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000000000       0x22 Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000000000       0x8e Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000000000       0x51 Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000000000       0xef Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000000000       0x6a Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000000000      0x1df Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000000000       0x73 Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000000000      0x749 Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000000000       0x66 Ethernet/W5500/w5500.o
+ .debug_line    0x0000000000000000      0x41b Ethernet/W5500/w5500.o
+ .debug_str     0x0000000000000000     0x7222 Ethernet/W5500/w5500.o
+ .comment       0x0000000000000000       0x7c Ethernet/W5500/w5500.o
+ .ARM.attributes
+                0x0000000000000000       0x39 Ethernet/W5500/w5500.o
+ .group         0x0000000000000000        0xc Ethernet/socket.o
+ .group         0x0000000000000000        0xc Ethernet/socket.o
+ .group         0x0000000000000000        0xc Ethernet/socket.o
+ .group         0x0000000000000000        0xc Ethernet/socket.o
+ .group         0x0000000000000000        0xc Ethernet/socket.o
+ .group         0x0000000000000000        0xc Ethernet/socket.o
+ .group         0x0000000000000000        0xc Ethernet/socket.o
+ .group         0x0000000000000000        0xc Ethernet/socket.o
+ .group         0x0000000000000000        0xc Ethernet/socket.o
+ .group         0x0000000000000000        0xc Ethernet/socket.o
+ .group         0x0000000000000000        0xc Ethernet/socket.o
+ .text          0x0000000000000000        0x0 Ethernet/socket.o
+ .data          0x0000000000000000        0x0 Ethernet/socket.o
+ .bss           0x0000000000000000        0x0 Ethernet/socket.o
+ .data.sock_any_port
+                0x0000000000000000        0x2 Ethernet/socket.o
+ .bss.sock_io_mode
+                0x0000000000000000        0x2 Ethernet/socket.o
+ .bss.sock_is_sending
+                0x0000000000000000        0x2 Ethernet/socket.o
+ .bss.sock_remained_size
+                0x0000000000000000       0x10 Ethernet/socket.o
+ .bss.sock_pack_info
+                0x0000000000000000        0x8 Ethernet/socket.o
+ .bss.sock_remained_byte
+                0x0000000000000000        0x8 Ethernet/socket.o
+ .text.socket   0x0000000000000000      0x254 Ethernet/socket.o
+ .text.close    0x0000000000000000      0x1b0 Ethernet/socket.o
+ .text.listen   0x0000000000000000       0xba Ethernet/socket.o
+ .text.connect  0x0000000000000000      0x1e4 Ethernet/socket.o
+ .text.disconnect
+                0x0000000000000000       0xf4 Ethernet/socket.o
+ .text.send     0x0000000000000000      0x21c Ethernet/socket.o
+ .text.recv     0x0000000000000000      0x2e4 Ethernet/socket.o
+ .rodata        0x0000000000000000        0x5 Ethernet/socket.o
+ .text.sendto   0x0000000000000000      0x45c Ethernet/socket.o
+ .text.recvfrom
+                0x0000000000000000      0x504 Ethernet/socket.o
+ .text.ctlsocket
+                0x0000000000000000      0x190 Ethernet/socket.o
+ .text.setsockopt
+                0x0000000000000000      0x234 Ethernet/socket.o
+ .text.getsockopt
+                0x0000000000000000      0x24c Ethernet/socket.o
+ .debug_info    0x0000000000000000      0x876 Ethernet/socket.o
+ .debug_abbrev  0x0000000000000000      0x21e Ethernet/socket.o
+ .debug_aranges
+                0x0000000000000000       0x78 Ethernet/socket.o
+ .debug_ranges  0x0000000000000000       0x80 Ethernet/socket.o
+ .debug_macro   0x0000000000000000       0xb8 Ethernet/socket.o
+ .debug_macro   0x0000000000000000      0xa5a Ethernet/socket.o
+ .debug_macro   0x0000000000000000       0x22 Ethernet/socket.o
+ .debug_macro   0x0000000000000000       0x8e Ethernet/socket.o
+ .debug_macro   0x0000000000000000       0x51 Ethernet/socket.o
+ .debug_macro   0x0000000000000000       0xef Ethernet/socket.o
+ .debug_macro   0x0000000000000000       0x6a Ethernet/socket.o
+ .debug_macro   0x0000000000000000      0x1df Ethernet/socket.o
+ .debug_macro   0x0000000000000000       0x6d Ethernet/socket.o
+ .debug_macro   0x0000000000000000      0x749 Ethernet/socket.o
+ .debug_macro   0x0000000000000000       0x66 Ethernet/socket.o
+ .debug_macro   0x0000000000000000       0xc6 Ethernet/socket.o
+ .debug_line    0x0000000000000000      0x91e Ethernet/socket.o
+ .debug_str     0x0000000000000000     0x78d9 Ethernet/socket.o
+ .comment       0x0000000000000000       0x7c Ethernet/socket.o
+ .debug_frame   0x0000000000000000      0x1e0 Ethernet/socket.o
+ .ARM.attributes
+                0x0000000000000000       0x39 Ethernet/socket.o
+ .group         0x0000000000000000        0xc Ethernet/wizchip_conf.o
+ .group         0x0000000000000000        0xc Ethernet/wizchip_conf.o
+ .group         0x0000000000000000        0xc Ethernet/wizchip_conf.o
+ .group         0x0000000000000000        0xc Ethernet/wizchip_conf.o
+ .group         0x0000000000000000        0xc Ethernet/wizchip_conf.o
+ .group         0x0000000000000000        0xc Ethernet/wizchip_conf.o
+ .group         0x0000000000000000        0xc Ethernet/wizchip_conf.o
+ .group         0x0000000000000000        0xc Ethernet/wizchip_conf.o
+ .group         0x0000000000000000        0xc Ethernet/wizchip_conf.o
+ .group         0x0000000000000000        0xc Ethernet/wizchip_conf.o
+ .group         0x0000000000000000        0xc Ethernet/wizchip_conf.o
+ .text          0x0000000000000000        0x0 Ethernet/wizchip_conf.o
+ .data          0x0000000000000000        0x0 Ethernet/wizchip_conf.o
+ .bss           0x0000000000000000        0x0 Ethernet/wizchip_conf.o
+ .text.wizchip_cris_enter
+                0x0000000000000000        0xe Ethernet/wizchip_conf.o
+ .text.wizchip_cris_exit
+                0x0000000000000000        0xe Ethernet/wizchip_conf.o
+ .text.wizchip_cs_select
+                0x0000000000000000        0xe Ethernet/wizchip_conf.o
+ .text.wizchip_cs_deselect
+                0x0000000000000000        0xe Ethernet/wizchip_conf.o
+ .text.wizchip_bus_readdata
+                0x0000000000000000       0x1a Ethernet/wizchip_conf.o
+ .text.wizchip_bus_writedata
+                0x0000000000000000       0x1e Ethernet/wizchip_conf.o
+ .text.wizchip_spi_readbyte
+                0x0000000000000000       0x10 Ethernet/wizchip_conf.o
+ .text.wizchip_spi_writebyte
+                0x0000000000000000       0x16 Ethernet/wizchip_conf.o
+ .text.wizchip_spi_readburst
+                0x0000000000000000       0x18 Ethernet/wizchip_conf.o
+ .text.wizchip_spi_writeburst
+                0x0000000000000000       0x18 Ethernet/wizchip_conf.o
+ .data.WIZCHIP  0x0000000000000000       0x2c Ethernet/wizchip_conf.o
+ .bss._DNS_     0x0000000000000000        0x4 Ethernet/wizchip_conf.o
+ .bss._DHCP_    0x0000000000000000        0x1 Ethernet/wizchip_conf.o
+ .text.reg_wizchip_cris_cbfunc
+                0x0000000000000000       0x48 Ethernet/wizchip_conf.o
+ .text.reg_wizchip_cs_cbfunc
+                0x0000000000000000       0x48 Ethernet/wizchip_conf.o
+ .text.reg_wizchip_bus_cbfunc
+                0x0000000000000000       0x58 Ethernet/wizchip_conf.o
+ .text.reg_wizchip_spi_cbfunc
+                0x0000000000000000       0x58 Ethernet/wizchip_conf.o
+ .text.reg_wizchip_spiburst_cbfunc
+                0x0000000000000000       0x58 Ethernet/wizchip_conf.o
+ .text.ctlwizchip
+                0x0000000000000000       0xec Ethernet/wizchip_conf.o
+ .text.ctlnetwork
+                0x0000000000000000       0x7c Ethernet/wizchip_conf.o
+ .text.wizchip_sw_reset
+                0x0000000000000000      0x210 Ethernet/wizchip_conf.o
+ .text.wizchip_init
+                0x0000000000000000       0xd4 Ethernet/wizchip_conf.o
+ .text.wizchip_clrinterrupt
+                0x0000000000000000       0x48 Ethernet/wizchip_conf.o
+ .text.wizchip_getinterrupt
+                0x0000000000000000       0x4c Ethernet/wizchip_conf.o
+ .text.wizchip_setinterruptmask
+                0x0000000000000000       0x48 Ethernet/wizchip_conf.o
+ .text.wizchip_getinterruptmask
+                0x0000000000000000       0x54 Ethernet/wizchip_conf.o
+ .text.wizphy_getphylink
+                0x0000000000000000       0x1e Ethernet/wizchip_conf.o
+ .text.wizphy_getphypmode
+                0x0000000000000000       0x1e Ethernet/wizchip_conf.o
+ .text.wizchip_setnetinfo
+                0x0000000000000000      0x160 Ethernet/wizchip_conf.o
+ .text.wizchip_getnetinfo
+                0x0000000000000000      0x184 Ethernet/wizchip_conf.o
+ .text.wizchip_setnetmode
+                0x0000000000000000       0x46 Ethernet/wizchip_conf.o
+ .text.wizchip_getnetmode
+                0x0000000000000000       0x16 Ethernet/wizchip_conf.o
+ .text.wizchip_settimeout
+                0x0000000000000000       0x34 Ethernet/wizchip_conf.o
+ .text.wizchip_gettimeout
+                0x0000000000000000       0x34 Ethernet/wizchip_conf.o
+ .debug_info    0x0000000000000000      0xac4 Ethernet/wizchip_conf.o
+ .debug_abbrev  0x0000000000000000      0x2be Ethernet/wizchip_conf.o
+ .debug_aranges
+                0x0000000000000000      0x110 Ethernet/wizchip_conf.o
+ .debug_ranges  0x0000000000000000      0x100 Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000       0x94 Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000      0xa5a Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000      0x174 Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000       0x22 Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000       0x8e Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000       0x51 Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000       0xef Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000       0x6a Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000      0x1df Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000       0x6d Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000      0x749 Ethernet/wizchip_conf.o
+ .debug_macro   0x0000000000000000       0x66 Ethernet/wizchip_conf.o
+ .debug_line    0x0000000000000000      0x743 Ethernet/wizchip_conf.o
+ .debug_str     0x0000000000000000     0x7aa3 Ethernet/wizchip_conf.o
+ .comment       0x0000000000000000       0x7c Ethernet/wizchip_conf.o
+ .debug_frame   0x0000000000000000      0x488 Ethernet/wizchip_conf.o
+ .ARM.attributes
+                0x0000000000000000       0x39 Ethernet/wizchip_conf.o
  .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-errno.o)
  .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-errno.o)
  .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-errno.o)
@@ -2688,6 +3042,13 @@ LOAD Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
 LOAD Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
 LOAD Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
 LOAD Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+LOAD Ethernet/W5100/w5100.o
+LOAD Ethernet/W5100S/w5100s.o
+LOAD Ethernet/W5200/w5200.o
+LOAD Ethernet/W5300/w5300.o
+LOAD Ethernet/W5500/w5500.o
+LOAD Ethernet/socket.o
+LOAD Ethernet/wizchip_conf.o
 START GROUP
 LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a
 LOAD c:/st/stm32cubeide_1.5.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a
@@ -3390,31 +3751,31 @@ OUTPUT(PhaseDetector v1.0.elf elf32-littlearm)
  .debug_line    0x0000000000005480     0x193e Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .debug_line    0x0000000000006dbe      0xcdb Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
 
-.debug_str      0x0000000000000000    0xba5fa
- .debug_str     0x0000000000000000    0xb7dd0 Core/Src/main.o
-                                      0xb812e (size before relaxing)
- .debug_str     0x00000000000b7dd0       0x99 Core/Src/stm32f4xx_hal_msp.o
-                                      0xb7b96 (size before relaxing)
- .debug_str     0x00000000000b7e69      0x230 Core/Src/stm32f4xx_it.o
-                                      0xb755a (size before relaxing)
- .debug_str     0x00000000000b8099       0xc4 Core/Src/system_stm32f4xx.o
-                                      0xb707c (size before relaxing)
- .debug_str     0x00000000000b815d       0x36 Core/Startup/startup_stm32f405rgtx.o
-                                         0x82 (size before relaxing)
- .debug_str     0x00000000000b8193      0x58d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
-                                      0xb7b28 (size before relaxing)
- .debug_str     0x00000000000b8720      0x399 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
-                                      0xb7917 (size before relaxing)
- .debug_str     0x00000000000b8ab9      0x1de Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
-                                      0xb72bb (size before relaxing)
- .debug_str     0x00000000000b8c97      0x259 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
-                                      0xb7469 (size before relaxing)
- .debug_str     0x00000000000b8ef0      0x560 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
-                                      0xb78ea (size before relaxing)
- .debug_str     0x00000000000b9450      0xd08 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
-                                      0xb8188 (size before relaxing)
- .debug_str     0x00000000000ba158      0x4a2 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
-                                      0xb7988 (size before relaxing)
+.debug_str      0x0000000000000000    0xba5e5
+ .debug_str     0x0000000000000000    0xb7dbb Core/Src/main.o
+                                      0xb8119 (size before relaxing)
+ .debug_str     0x00000000000b7dbb       0x99 Core/Src/stm32f4xx_hal_msp.o
+                                      0xb7b81 (size before relaxing)
+ .debug_str     0x00000000000b7e54      0x230 Core/Src/stm32f4xx_it.o
+                                      0xb7545 (size before relaxing)
+ .debug_str     0x00000000000b8084       0xc4 Core/Src/system_stm32f4xx.o
+                                      0xb7067 (size before relaxing)
+ .debug_str     0x00000000000b8148       0x36 Core/Startup/startup_stm32f405rgtx.o
+                                         0x6d (size before relaxing)
+ .debug_str     0x00000000000b817e      0x58d Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                                      0xb7b13 (size before relaxing)
+ .debug_str     0x00000000000b870b      0x399 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+                                      0xb7902 (size before relaxing)
+ .debug_str     0x00000000000b8aa4      0x1de Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+                                      0xb72a6 (size before relaxing)
+ .debug_str     0x00000000000b8c82      0x259 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+                                      0xb7454 (size before relaxing)
+ .debug_str     0x00000000000b8edb      0x560 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
+                                      0xb78d5 (size before relaxing)
+ .debug_str     0x00000000000b943b      0xd08 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+                                      0xb8173 (size before relaxing)
+ .debug_str     0x00000000000ba143      0x4a2 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+                                      0xb7973 (size before relaxing)
 
 .comment        0x0000000000000000       0x7b
  .comment       0x0000000000000000       0x7b Core/Src/main.o
