@@ -9,10 +9,6 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include Ethernet/W5500/subdir.mk
--include Ethernet/W5300/subdir.mk
--include Ethernet/W5200/subdir.mk
--include Ethernet/W5100S/subdir.mk
--include Ethernet/W5100/subdir.mk
 -include Ethernet/subdir.mk
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk

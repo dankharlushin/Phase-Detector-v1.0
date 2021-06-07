@@ -22,10 +22,6 @@ SUBDIRS := \
 Core/Src \
 Core/Startup \
 Drivers/STM32F4xx_HAL_Driver/Src \
-Ethernet/W5100 \
-Ethernet/W5100S \
-Ethernet/W5200 \
-Ethernet/W5300 \
 Ethernet/W5500 \
 Ethernet \
 
