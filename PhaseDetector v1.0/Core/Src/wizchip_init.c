@@ -9,6 +9,7 @@
 #include "wizchip_init.h"
 
 uint8_t freesize;
+extern uint16_t version;
 
 /* Mac, IP ... W5500*/
 wiz_NetInfo gWIZNETINFO = { .mac = {0x18,0xCF,0x5E,0x53,0xBF,0x3D},
@@ -37,7 +38,7 @@ void WizchIP_main(SPI_HandleTypeDef* spi,GPIO_TypeDef *GPIO_CS, uint16_t GPIO_PI
 
 	UART_WIZCHIP = uart;
 
-	uint8_t gDATABUF[DATA_BUF_SIZE];
+	uint8_t gDATABUF[DATA_BUF_SIZE] = {1, 0, 1, 0};
 
 	uint8_t tmp;
 	int32_t ret = 0;
@@ -97,15 +98,15 @@ void WizchIP_main(SPI_HandleTypeDef* spi,GPIO_TypeDef *GPIO_CS, uint16_t GPIO_PI
 	        {
 	        	if( (ret = loopback_tcps_server(0, gDATABUF, 5000)) < 0)
 	        	{
-	        		//UART_Printf("SOCKET ERROR : %ld\r\n", ret);
+	        		UART_Printf("SOCKET ERROR : %ld\r\n", ret);
 	        	}
 
-	        	/* Uncomment if want TCP client
-	        	if( (ret = loopback_tcps_client(0, gDATABUF, 5000)) < 0)
+	        	// Uncomment if want TCP client
+	        	/*if( (ret = loopback_tcps_client(0, gDATABUF, 5000)) < 0)
 	        	{
-	        		//UART_Printf("SOCKET ERROR : %ld\r\n", ret);
-	        	}
-				*/
+	        		UART_Printf("SOCKET ERROR : %ld\r\n", ret);
+	        	}*/
+
 
 	        	/* Uncomment if want UDP
 	        	if( (ret = loopback_udp(0, gDATABUF, 5000)) < 0)
@@ -122,7 +123,7 @@ void WizchIP_main(SPI_HandleTypeDef* spi,GPIO_TypeDef *GPIO_CS, uint16_t GPIO_PI
 /* Set Low CS */
 void  wizchip_select(void)
 {
-   GPIO_SPI_CS_WIZCHIP->BRR = GPIO_Pin_SPI_CS_WIZCHIP;
+   GPIO_SPI_CS_WIZCHIP->BSRR = GPIO_Pin_SPI_CS_WIZCHIP << 16U;
 }
 /* Set High CS*/
 void  wizchip_deselect(void)
@@ -216,10 +217,11 @@ int32_t loopback_tcps_server(uint8_t sn, uint8_t* buf, uint16_t port)
             if(size > DATA_BUF_SIZE) size = DATA_BUF_SIZE;
             ret = recv(sn,buf,size);	//function receive data
             if(ret <= 0) return ret;
+            ret = send(sn,buf,size);	//function transmit data
+            if(ret <= 0) return ret;
          }
 
-         ret = send(sn,buf,size);	//function transmit data
-         if(ret <= 0) return ret;
+
 //------------------------------------------------------------//
          break;
 
