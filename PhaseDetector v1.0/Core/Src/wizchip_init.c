@@ -10,6 +10,7 @@
 
 uint8_t freesize;
 extern uint16_t version;
+extern uint8_t var;
 
 /* Mac, IP ... W5500*/
 wiz_NetInfo gWIZNETINFO = { .mac = {0x18,0xCF,0x5E,0x53,0xBF,0x3D},
@@ -38,7 +39,7 @@ void WizchIP_main(SPI_HandleTypeDef* spi,GPIO_TypeDef *GPIO_CS, uint16_t GPIO_PI
 
 	UART_WIZCHIP = uart;
 
-	uint8_t gDATABUF[DATA_BUF_SIZE] = {1, 0, 1, 0};
+	uint8_t gDATABUF[DATA_BUF_SIZE];
 
 	uint8_t tmp;
 	int32_t ret = 0;
@@ -94,13 +95,13 @@ void WizchIP_main(SPI_HandleTypeDef* spi,GPIO_TypeDef *GPIO_CS, uint16_t GPIO_PI
 	        network_init();
 
 	        /* Main loop */
-	        while(1)
+	        /*while(1)
 	        {
 	        	if( (ret = loopback_tcps_server(0, gDATABUF, 5000)) < 0)
 	        	{
 	        		UART_Printf("SOCKET ERROR : %ld\r\n", ret);
 	        	}
-
+*/
 	        	// Uncomment if want TCP client
 	        	/*if( (ret = loopback_tcps_client(0, gDATABUF, 5000)) < 0)
 	        	{
@@ -115,7 +116,7 @@ void WizchIP_main(SPI_HandleTypeDef* spi,GPIO_TypeDef *GPIO_CS, uint16_t GPIO_PI
 	        	}
 	        	*/
 
-	        } // end of Main loop
+	       // } // end of Main loop
 
 }
 
@@ -191,6 +192,7 @@ int32_t loopback_tcps_server(uint8_t sn, uint8_t* buf, uint16_t port)
 {
    int32_t ret;
    uint16_t size = 0;
+   uint8_t startSendidngFlag = 0;
 
    switch(getSn_SR(sn))   //Проверить состояние сокета sn
    {
@@ -208,17 +210,15 @@ int32_t loopback_tcps_server(uint8_t sn, uint8_t* buf, uint16_t port)
         	// UART_Printf("%d:Connected\r\n",sn);
             setSn_IR(sn,Sn_IR_CON);
          }
-//------------------------------------------------------------//
-//-------------- Example Mirror ------------------------------//
-//------------------------------------------------------------//
+
+         /* Recv data */
+         //------------------------------------------------------------//
+         //-------------- Example Mirror ------------------------------//
+         //------------------------------------------------------------//
          /* Receive data */
          if((size = getSn_RX_RSR(sn)) > 0)
          {
-            if(size > DATA_BUF_SIZE) size = DATA_BUF_SIZE;
-            ret = recv(sn,buf,size);	//function receive data
-            if(ret <= 0) return ret;
-            ret = send(sn,buf,size);	//function transmit data
-            if(ret <= 0) return ret;
+        	 send(sn, buf, sizeof buf);
          }
 
 

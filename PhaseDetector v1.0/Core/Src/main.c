@@ -111,7 +111,7 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
   GPIO_Init();
-  WizchIP_main(&hspi3,SPI3_CS_GPIO_Port, SPI3_CS_Pin, &huart1);
+  //WizchIP_main(&hspi3,SPI3_CS_GPIO_Port, SPI3_CS_Pin, &huart1);
 
   /* USER CODE END 2 */
 
@@ -529,6 +529,7 @@ static void GPIO_Init(void)
    GPIO_PIN_SET(Bus_Mixer + PRUPY);
    GPIO_PIN_SET(Bus_Mixer + PRUPZ);
    GPIO_PIN_SET(Bus_Mixer + PRUPA);
+   WizchIP_main(&hspi3,SPI3_CS_GPIO_Port, SPI3_CS_Pin, &huart1);
 }
 
 
