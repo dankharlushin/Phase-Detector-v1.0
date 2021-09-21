@@ -21,6 +21,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f4xx_it.h"
+#include "wizchip_init.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 /* USER CODE END Includes */
@@ -39,6 +40,8 @@ typedef enum{
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define AVG 100
+#define TRANSPORT_BUFFER_SIZE 4
+#define PORT 5000
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -73,10 +76,12 @@ uint16_t PeriodX = 0,
 		 PeriodY = 0,
 		 PeriodZ = 0,
 		 PeriodA = 0;
+uint32_t count = 0;
 
 
 uint16_t Phase[2][AXIS_COUNT] = {0};
 int PhaseRelatA[AXIS_COUNT] = {0};
+uint8_t var = 86;
 
 /* USER CODE END PV */
 
@@ -355,10 +360,19 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 	RefreshTIM(&htim12);
 	HAL_TIM_Base_Start_IT(&htim12);
 }*/
+	/*int32_t startFlag = 0;
+	uint8_t buffer[32];
 
-	dPhase = 0;
-	switch (Count)
-	{
+	if((ret = loopback_tcps_server(0, gDATABUF, 5000)) < 0) {
+		UART_Printf("SOCKET ERROR : %ld\r\n", ret);
+	}*/
+
+	//else {
+
+	//if (count < 50000) {
+		dPhase = 0;
+		switch (Count)
+		{
 		case 0:
 			RefreshTIM(&htim9);
 			HAL_TIM_Base_Start_IT(&htim9);
@@ -366,21 +380,21 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 			break;
 
 		case AXIS_COUNT-1:
-			dPhase = TIM9 ->CNT;
-			RefreshTIM(&htim9);
-			Count = 0;
-			PhaseRelativelyA();
-			break;
+		dPhase = TIM9 ->CNT;
+		RefreshTIM(&htim9);
+		Count = 0;
+		PhaseRelativelyA();
+		break;
 
 		default:
 			dPhase = TIM9 -> CNT;
 			Count++;
 			break;
-	}
+		}
 
 
-	switch (GPIO_Pin)
-	{
+		switch (GPIO_Pin)
+		{
 
 		case GPIO_PIN_1:
 			HAL_TIM_Base_Stop_IT(&htim12);
@@ -399,11 +413,16 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 			{
 				Phase[0][Axis_Z] = 4;
 				Phase[1][Axis_Z] = dPhase;
+				sendDataByWiznet(Phase[1][Axis_Z]);
+				//buffer[0] = Phase[1][Axis_Z];
+				//loopback_tcps_server(0, buffer, 5000);
+
 			}
 			else
 			{
 				Phase[0][Axis_Z] = Count;
 				Phase[1][Axis_Z] = dPhase;
+				sendDataByWiznet(Phase[1][Axis_Z]);
 			}
 			break;
 
@@ -424,11 +443,13 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 			{
 				Phase[0][Axis_Y] = 4;
 				Phase[1][Axis_Y] = dPhase;
+				sendDataByWiznet(Phase[1][Axis_Y]);
 			}
 			else
 			{
 				Phase[0][Axis_Y] = Count;
 				Phase[1][Axis_Y] = dPhase;
+				sendDataByWiznet(Phase[1][Axis_Y]);
 			}
 			break;
 
@@ -449,11 +470,13 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 			{
 				Phase[0][Axis_X] = 4;
 				Phase[1][Axis_X] = dPhase;
+				sendDataByWiznet(Phase[1][Axis_X]);
 			}
 			else
 			{
 				Phase[0][Axis_X] = Count;
 				Phase[1][Axis_X] = dPhase;
+				sendDataByWiznet(Phase[1][Axis_X]);
 			};
 			break;
 
@@ -474,17 +497,22 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 			{
 				Phase[0][Axis_A] = 4;
 				Phase[1][Axis_A] = dPhase;
+				sendDataByWiznet(Phase[1][Axis_A]);
 			}
 			else
 			{
 				Phase[0][Axis_A] = Count;
 				Phase[1][Axis_A] = dPhase;
+				sendDataByWiznet(Phase[1][Axis_A]);
 			};
 			break;
 
 		default:
 			break;
-	}
+		}
+	//}
+	//count++;
+	//}
 }
 
 int RefreshTIM(TIM_HandleTypeDef *htim){
@@ -504,6 +532,20 @@ void PhaseRelativelyA(void){
 			PhaseRelatA[j]=Phase[1][j];
 		}
 	}
+}
+
+void sendDataByWiznet(uint16_t data) {
+
+	uint8_t buffer[TRANSPORT_BUFFER_SIZE];
+
+	uint8_t highByteOfData = data >> 8;
+	uint8_t lowByteOfData =  data & 0xFF;
+	buffer[0] = 10;
+	buffer[1] = highByteOfData;
+	buffer[2] = lowByteOfData;
+	loopback_tcps_server(0, buffer, PORT);
+
+
 }
 
 

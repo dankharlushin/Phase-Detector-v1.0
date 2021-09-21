@@ -27,7 +27,13 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- ../Core/Inc/pin_description.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ ../Core/Inc/pin_description.h ../Core/Inc/wizchip_init.h \
+ C:/Users/danil/git/repository/PhaseDetector\ v1.0/Ethernet/socket.h \
+ C:/Users/danil/git/repository/PhaseDetector\ v1.0/Ethernet/wizchip_conf.h \
+ C:/Users/danil/git/repository/PhaseDetector\ v1.0/Ethernet/W5500/w5500.h \
+ C:/Users/danil/git/repository/PhaseDetector\ v1.0/Ethernet/wizchip_conf.h \
+ ../Core/Inc/main.h
 
 ../Core/Inc/main.h:
 
@@ -87,4 +93,18 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
+
 ../Core/Inc/pin_description.h:
+
+../Core/Inc/wizchip_init.h:
+
+C:/Users/danil/git/repository/PhaseDetector\ v1.0/Ethernet/socket.h:
+
+C:/Users/danil/git/repository/PhaseDetector\ v1.0/Ethernet/wizchip_conf.h:
+
+C:/Users/danil/git/repository/PhaseDetector\ v1.0/Ethernet/W5500/w5500.h:
+
+C:/Users/danil/git/repository/PhaseDetector\ v1.0/Ethernet/wizchip_conf.h:
+
+../Core/Inc/main.h:

@@ -8,6 +8,8 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Ethernet/W5500/subdir.mk
+-include Ethernet/subdir.mk
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
@@ -54,8 +56,8 @@ all: main-build
 main-build: PhaseDetector\ v1.0.elf secondary-outputs
 
 # Tool invocations
-PhaseDetector\ v1.0.elf: $(OBJS) $(USER_OBJS) C:\Users\Dexter\Documents\STM32\PhaseDetector\V1.0\PhaseDetector\ v1.0\STM32F405RGTX_FLASH.ld
-	arm-none-eabi-gcc -o "PhaseDetector v1.0.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Dexter\Documents\STM32\PhaseDetector\V1.0\PhaseDetector v1.0\STM32F405RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PhaseDetector v1.0.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+PhaseDetector\ v1.0.elf: $(OBJS) $(USER_OBJS) C:\Users\danil\git\repository\PhaseDetector\ v1.0\STM32F405RGTX_FLASH.ld
+	arm-none-eabi-gcc -o "PhaseDetector v1.0.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\danil\git\repository\PhaseDetector v1.0\STM32F405RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PhaseDetector v1.0.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
